@@ -1,0 +1,123 @@
+@charset"utf-8";
+
+body{
+background: linear-gradient(to bottom, #a9a9a9 0%, #ffffff 102%);
+width: 100%;
+height: 100%;
+background: url ("imagens/images.jpg");}
+p{
+		font-size: 15px;
+        text-align:justify;
+        text-align:center;
+		
+		}
+p.center  {
+			font-size: 16px;
+        text-align:justify;
+        text-align:center;
+		}
+	    
+		
+div.container img {
+	position:relative no-repeat;
+	right:500px;
+	width: 200px;
+	margin-top:34px;
+	box-shadow: 0px 0px 10px black;
+}
+div.filho img{
+	position:absolute;
+	left:750px;
+	width: 700px;
+	height:290px;
+	margin-top:-200px;
+	box-shadow:0px 0px 10px black;
+	border: 1px 1px 1px black solid;
+}
+
+
+ul#nav-mobile img{
+	width:48px;
+	height:28px;
+	margin-top:15px;
+	
+}
+
+
+	
+}
+aside#latereal{
+	display: block;
+	float: right;
+	margin-top:20px;
+	width: auto;
+	margin-left: -200px;
+}
+div#lateral{
+	display:block;
+	 margin-top :-919px;
+	 float:right;
+	 width:499px;
+	 margin-right:140px;
+	 padding-right:36px;
+	 margin-left:49px;
+	 background: grey darken;
+}
+section.corpo{
+	display: block;
+	width: 1000px;
+	float: left;
+padding-right: 20px;
+margin-right:300px;
+}
+footer#rodape {
+	clear: both;
+    border-top: 4px solid #606060;
+		background-color:# 757575;
+}
+footer#rodape p {
+	text-align: center;
+	
+}
+
+
+
+div.desenhos img {
+	display: inline-block;
+	position: relative;
+	width: 220px;
+	height:  280px;
+	padding: 8px;
+	margin: 5px;
+	margin-left: 80px;
+	overflow: hidden;
+	box-shadow: 1px 1px 7px rgba(0,0,0,.4);
+	list-style: none;
+   
+ }
+ div.video--container{
+ 	position: relative;
+ 	margin: 10px;
+ 	padding: 9px;
+ 	left: 50px;
+
+ 	
+ }
+  div.video--container iframe {
+  	position: relative;
+ 	padding: -10px;
+ 	margin-top: -90px;
+ 	float: center;
+ 	padding-top: -30px;
+ 	margin: 10px;
+ 	border: 1px 1px 2px 0px #757575; 
+ 	
+
+ }
+
+section.corpo2{
+	display: block;
+	width: 1190px;
+	float: auto;
+	margin: auto;
+}
